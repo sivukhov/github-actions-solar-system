@@ -101,4 +101,4 @@ jobs:
           with:
             context: .
             push: true
-            tags: ${{ github.repository }}/solar-system:latest
+            tags: ghcr.io/${{ github.repository }}/solar-system:latest
